@@ -12,6 +12,6 @@ We started by familliarizing with the code, and experimenting with several input
 
 We recall that the actual video magnification was covered by ZhengPeng7 on his collab file, our work focuses on testing and experimenting with it, starting from the section **Comparison with the state of the art**.
 
-We recommand using google Collab for this code to work properly.
+We recommand using google Collab for this code to work properly: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1inOucehJXUAVBlRhZvo650SoOPLKQFNv#scrollTo=BjgKRohk7Q5M](https://colab.research.google.com/drive/1dATor77-4c_L4jbWcFrPxMF64WdHG_Xh#scrollTo=FUX3pb77Axr0))
 
 The file `Learning-based Video Motion Magnification.pdf` contains the slides for the method presentation. The slides contain a bunch of animated gifs that are not always displayed correctly depending on the pdf redear one might use, so we suggest using Acrobat Reader.
