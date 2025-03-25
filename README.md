@@ -3,7 +3,7 @@
 
 In this repository, we experiment with a **learning-based motion magnification** method introduced by [Tae-Hyun Oh et al.](https://people.csail.mit.edu/tiam/deepmag/), and implemented in PyTorch by [ZhengPeng7](https://github.com/ZhengPeng7/motion_magnification_learning-based).
 
-ZhengPeng7 provides a Google Collab including his implementation of the learning-based motion magnification model in PyTorch, allowing us to use the pretrained model to magnify the motion of any given input video and by specifying the `magnification factor`.
+ZhengPeng7 provides a Google Colab including his implementation of the learning-based motion magnification model in PyTorch, allowing us to use the pretrained model to magnify the motion of any given input video and by specifying the `magnification factor`.
 
 We started by familliarizing with the code, and experimenting with several input videos, and then we conducted the following tests:
 
@@ -20,7 +20,7 @@ The notebook created to perform this phase based magnification and metrics compu
 
 The notebook created to perform this temporal filtering is the `temporal-filtering.ipynb` file
 
-We recall that the actual video magnification was covered by ZhengPeng7 in his collab file, our work focuses on testing and experimenting with it. We selected the videos we wanted to magnify for our tests (inside the `videos` folder), and we used a custom version of ZhengPeng7's collab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1inOucehJXUAVBlRhZvo650SoOPLKQFNv#scrollTo=BjgKRohk7Q5M](https://colab.research.google.com/drive/1dATor77-4c_L4jbWcFrPxMF64WdHG_Xh#scrollTo=FUX3pb77Axr0))
+We recall that the actual video magnification was covered by ZhengPeng7 in his colab file, our work focuses on testing and experimenting with it. We selected the videos we wanted to magnify for our tests (inside the `videos` folder), and we used a custom version of ZhengPeng7's colab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bTgyQ2WSEB7uruf7g_kLDAFNXzvHiSEX?usp=sharing)
 
 The resulting magnified videos can be found in the `res-videos` folder, classified by sequences (`grass`, `sea_view`, `custom` - the `guitar` sequence was used directly inside the `Phase-based-Motion-Magnification.ipynb` file to perform metrics computation).
 
