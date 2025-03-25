@@ -16,7 +16,7 @@ The notebook created to perform this phase based magnification and metrics compu
   
 - Testing the effect of different **temporal filters** and **magnification factors** on the resulting output video to verify what the authors stated as limitations of their model:
   
-    The paper introduces as limitations of their model the degraded perceptual quality of videos obtained by applying high magnification factors on small motion videos and after adding temporal filtering on it. It is important to note that we couldn't access *groundtruht* data with information about the actual quantity of motion inside the videos, we had to rely on hand made videos.
+    The paper introduces as limitations of their model the degraded perceptual quality of videos obtained by applying high magnification factors on small motion videos and after adding temporal filtering on it. It is important to note that we couldn't access *groundtruht* data with information about the actual quantity of motion inside the videos, we had to rely on hand made videos that we magnified and filtered. Then, we compared the two results visualy and quantitatively (by computed the SSIM score compared to the original video).
 
 The notebook created to perform this temporal filtering is the `temporal-filtering.ipynb` file
 
