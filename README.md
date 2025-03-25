@@ -24,4 +24,4 @@ We recall that the actual video magnification was covered by ZhengPeng7 in his c
 
 The resulting magnified videos can be found in the `res-videos` folder, classified by sequences (`grass`, `sea_view`, `custom` - the `guitar` sequence was used directly inside the `Phase-based-Motion-Magnification.ipynb` file to perform metrics computation).
 
-The file `Learning-based Video Motion Magnification.pdf` contains the slides for the method presentation. The slides contain a bunch of animated gifs that are not always displayed correctly depending on the pdf redear one might use, so we suggest using Acrobat Reader.
+The file `Learning-based Video Motion Magnification.pdf` contains the slides for the method presentation (*flipped classroom*). The slides contain a bunch of animated gifs that are not always displayed correctly depending on the pdf redear one might use, so we suggest using Acrobat Reader.
