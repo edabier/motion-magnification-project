@@ -9,7 +9,7 @@ We started by familliarizing with the code, and experimenting with several input
 
 - Comparison with the state of the art **phase-based method**:
 
-    The goal was to qualitatively mesure the difference between the results obtained with the phase-based method and the learning-based method. In fact, the paper only presents visual comparison between the two, but no rigorous metrics comparison was performed, so we chose to compare the **SSIM** and **BRISQUE** metrics for both methods.
+    The goal was to quantitatively mesure the difference between the results obtained with the phase-based method and the learning-based method. In fact, the paper only presents visual comparison between the two, but no rigorous metrics comparison was performed, so we chose to compare the **SSIM** and **BRISQUE** metrics for both methods.
 
 The notebook created to perform this phase based magnification and metrics computation is the `Phase-based-Motion-Magnification.ipynb` file
 
