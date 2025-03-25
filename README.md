@@ -18,7 +18,7 @@ The notebook created to perform this phase based magnification and metrics compu
   
     The paper introduces as limitations of their model the degraded perceptual quality of videos obtained by applying high magnification factors on small motion videos and after adding temporal filtering on it. It is important to note that we couldn't access *groundtruht* data with information about the actual quantity of motion inside the videos, we had to rely on hand made videos.
 
-  The notebook created to perform this temporal filtering is the `temporal-filtering.ipynb` file
+The notebook created to perform this temporal filtering is the `temporal-filtering.ipynb` file
 
 We recall that the actual video magnification was covered by ZhengPeng7 in his collab file, our work focuses on testing and experimenting with it. We selected the videos we wanted to magnify for our tests (inside the `videos` folder), and we used a custom version of ZhengPeng7's collab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1inOucehJXUAVBlRhZvo650SoOPLKQFNv#scrollTo=BjgKRohk7Q5M](https://colab.research.google.com/drive/1dATor77-4c_L4jbWcFrPxMF64WdHG_Xh#scrollTo=FUX3pb77Axr0))
 
