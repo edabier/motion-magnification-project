@@ -9,14 +9,14 @@ We started by familliarizing with the code, and experimenting with several input
 
 - Comparison with the state of the art **phase-based method**:
 
-    The goal was to quantitatively mesure the difference between the results obtained with the phase-based method and the learning-based method. In fact, the paper only presents visual comparison between the two, but no rigorous metrics comparison was performed, so we chose to compare the **SSIM** and **BRISQUE** metrics for both methods.
+    The goal was to quantitatively measure the difference between the results obtained with the phase-based method and the learning-based method. In fact, the paper only presents visual comparison between the two,  but no rigorous metrics comparison was performed,except for noise robustness, so we chose to compare the **SSIM** and **BRISQUE** metrics for both methods. We have also conducted a comparison of the power spectral density spectrum of the magnified videos resulting from the two methods
 
 The notebook created to perform this phase based magnification and metrics computation is the `Phase-based-Motion-Magnification.ipynb` file
 
   
 - Testing the effect of different **temporal filters** and **magnification factors** on the resulting output video to verify what the authors stated as limitations of their model:
   
-    The paper introduces as limitations of their model the degraded perceptual quality of videos obtained by applying high magnification factors on small motion videos and after adding temporal filtering on it. It is important to note that we couldn't access *groundtruht* data with information about the actual quantity of motion inside the videos, we had to rely on hand made videos that we magnified and filtered. Then, we compared the two results visualy and quantitatively (by computed the SSIM score compared to the original video).
+    The paper introduces as limitations of their model the degraded perceptual quality of videos obtained by applying high magnification factors on small motion videos and after adding temporal filtering on it. It is important to note that we couldn't access the *groundtruth* data with information about the actual quantity of motion inside the videos, we had to rely on hand-made videos that we magnified and filtered. Then, we compared the two results visualy and quantitatively (by computed the SSIM score compared to the original video).
 
 The notebook created to perform this temporal filtering is the `temporal-filtering.ipynb` file
 
